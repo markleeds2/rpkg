@@ -1,0 +1,21 @@
+Package: rpkg
+Title: An implementation of the Grammar of Graphics.
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Mark",
+           family = "Leeds",
+           role = c("aut", "cre"),
+           email = "markleeds2@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: An implementation of the grammar of graphics
+      in R. It combines the advantages of both base and 
+      lattice graphics: conditioning and shared axes
+      are handled automatically, and you can still build
+      up a plot step by step from multiple sources.
+License: MIT 
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Suggests: 
+    testthat

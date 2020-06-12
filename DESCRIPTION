@@ -1,5 +1,5 @@
 Package: rpkg
-Title: An implementation of the Grammar of Graphics.
+Title: An implementation of the Grammar of Graphics
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Mark",
@@ -12,10 +12,15 @@ Description: An implementation of the grammar of graphics
       lattice graphics: conditioning and shared axes
       are handled automatically, and you can still build
       up a plot step by step from multiple sources.
-License: MIT 
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
 Suggests: 
-    testthat
+    testthat,
+    aseekclean
+Depends: 
+    R (>= 2.10)
+Imports: 
+    eebt
